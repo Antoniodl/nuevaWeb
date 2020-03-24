@@ -1,0 +1,91 @@
+
+body{
+    
+    background-image: url("../imagenes/fondo1.jpg") ; 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: beige;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+.navbar {
+   background-color: rgb(251, 250, 237);
+   opacity: 0.8;
+
+}
+.piedepagina {
+    background-color: rgb(214, 214, 214);
+    text-align: center;
+    /* fijar pie abajo */
+    /* position: absolute;
+    width: 100%;
+    bottom: 0; */  
+}
+.cajasdeentrada{
+   height:22rem;
+   
+    
+   }
+.texto-entrada1 {
+    background-color: rgb(203, 243, 248);
+    padding:.4em;
+
+}
+.noticiasEntrada {
+    height:auto;
+    padding:50px;
+    background-color: rgba(255, 255, 255, .9);
+   }
+   .formacion {
+    height:auto;
+    padding-top:40px;
+    background-color: rgba(255, 255, 255, .9);
+   } 
+.acercadeEntrada {
+    height: auto;
+    padding:50px;
+    background-color: rgba(224, 224, 224, .9);
+   }
+   .textoentremedias h2 {
+       text-align: center;
+       height: auto;
+       
+       color: rgb(255, 255, 255);
+      
+       
+   }
+.contactoEntrada {
+    height: auto;
+    padding:50px;
+    background-color: rgb(142, 234, 246);
+   }   
+
+address .separaricono {
+    
+    margin-right: 20px;
+    
+}
+@media only screen and (max-width: 600px) {
+
+    body {
+        /* background-image: url("../imagenes/fondo2_movil.jpg") ;  */
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: beige;
+    
+    }
+    .cajasdeentrada{
+       height: auto;
+        padding-bottom: 1em;
+         
+        }
+     .texto-entrada1 {
+         background-color: rgb(203, 243, 248);
+        
+     
+}
